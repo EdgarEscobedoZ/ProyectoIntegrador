@@ -2,7 +2,9 @@
 <html>
 <head>
     <title>RUTA</title>
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='alumno.css') }}">
+
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename="estilos.css")}}">
+
 </head>
 <body>
     <div class="ventana">
@@ -48,9 +50,14 @@
                 <label for="tipo-viaje">Tipo de viaje</label>
                 <input type="text" id="tipo-viaje" class="input-field">
             </div>
-
-            <button class="btn-registrar">Registrar Alumno</button>
-            <button class="btn-reporte">Generar reporte</button>
+    
+            <div class="button-alumno">
+                <button class="btn-reporte">Registrar</button>
+                <button class="btn-reporte">Reporte</button>
+              </div>
+              
+              
+            
         </div>
     </div>
 </body>

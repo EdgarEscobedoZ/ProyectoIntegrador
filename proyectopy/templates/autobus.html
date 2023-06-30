@@ -2,7 +2,9 @@
 <html>
 <head>
     <title>AUTOBUS</title>
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='autobus.css') }}">
+
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename="estilos.css")}}">
+
 </head>
 <body>
     <div class="ventana">
@@ -34,8 +36,12 @@
                 <input type="text" id="tanque" class="input-field-small">
             </div>
 
-            <button class="btn-asignar">Asignar ruta</button>
-            <button class="btn-guardar">Guardar Datos</button>
+
+            <div class="button-autobus">
+                <button class="btn-autobus1">Registrar Alumno</button>
+                <button class="btn-autobus2">Generar reporte</button>
+            </div>
+
         </div>
     </div>
 </body>

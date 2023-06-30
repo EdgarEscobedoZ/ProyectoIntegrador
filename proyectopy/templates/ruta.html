@@ -3,7 +3,9 @@
 
 <head>
     <title>RUTA</title>
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='estiloruta.css') }}">
+
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename="estilos.css")}}">
+
 </head>
 
 <body>
@@ -24,7 +26,9 @@
                 <input type="text" id="paradas" class="paradas" placeholder="Ingrese el número">
             </div>
             <div class="button-container">
-                <button class="btn btn-regresar" id="btnatoreg">Regresar</button>
+
+                <a href="/ventana"><button class="btn btn-regresar" id="btnatoreg">Regresar</button></a>
+
                 <button class="btn btn-asignar" id="btnatasigdato">Asignar ruta</button>
                 <button class="btn btn-reporte" id="btnatreporte">Generar reporte</button>
             </div>
