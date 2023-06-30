@@ -19,6 +19,7 @@ def index():
     return render_template('login.html')
 
 #Ruta http://localhost:5000/guardar tipo POST para insert
+
 @app.route('/ventana')
 def inicio():
     return render_template('ventana.html')
